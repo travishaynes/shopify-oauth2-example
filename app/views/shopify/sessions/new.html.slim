@@ -1,0 +1,4 @@
+= form_tag "/auth/shopify", method: 'get' do
+  = label_tag :shop, "Your shop's .myshopify.com domain:"
+  = text_field_tag :shop
+  = submit_tag "Sign in"

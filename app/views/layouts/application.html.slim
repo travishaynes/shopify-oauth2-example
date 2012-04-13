@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title Shopify OAuth2 Example
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  body
+    ul
+      - if current_shop.nil?
+        li = link_to "Sign in", new_shopify_session_path
+      - else
+        li = current_shop.domain
+        li = link_to "Sign out", shopify_session_path,
+          :confirm => "Are you sure?",
+          :method  => :delete
+    = yield
