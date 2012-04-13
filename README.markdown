@@ -19,5 +19,5 @@ Instructions
     $ export SHOPIFY_SHARED_SECRET=[paste your app's shared secret here]
     $ rails s
 
-4. Point your browser to [localhost:3000](http://localhost:3000), and sign in
+Then point your browser to [localhost:3000](http://localhost:3000), and sign in
 with a test app.
