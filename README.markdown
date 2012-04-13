@@ -7,9 +7,11 @@ This is an example of how to use OAuth2 authentication in a Shopify app.
 Instructions
 ============
 
-1. Create a new Shopify app from your [Shopify Partner](https://app.shopify.com/services/partners/) dashboard.
-2. Copy the `api key` and `shared secret` for later.
-3. Run the following commands in a terminal:
+First create a new Shopify app from your
+[Shopify Partner](https://app.shopify.com/services/partners/) dashboard, and
+copy the `api key` and `shared secret`.
+
+Then run the following commands in a terminal:
 
     $ git clone git://github.com/travishaynes/shopify-oauth2-example.git
     $ cd shopify-oauth2-example
