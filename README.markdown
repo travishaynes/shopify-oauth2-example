@@ -22,4 +22,4 @@ Then run the following commands in a terminal:
     $ rails s
 
 Then point your browser to [localhost:3000](http://localhost:3000), and sign in
-with a test app.
+with a test shop.
